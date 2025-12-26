@@ -92,6 +92,7 @@ a {
     width: 240px;
     top: 86px;
     right: 0;
+    border-radius: 5px;
 }
 .header .icon ul::after {
     content: "";
@@ -102,7 +103,6 @@ a {
     position: absolute;
     right: 17px;
     top: -32px;
-    
 }
 .header .icon ul li {
     font-size: 25px;
@@ -205,7 +205,7 @@ hr {
 .card {
     text-align: center;
     width: 370px;
-    height: 396px;
+    height: 430px;
     border-radius: 10px;
     padding: 32px;
     background-color: var(--secondcolor);
@@ -230,7 +230,7 @@ hr {
     padding-top: 25px;
 }
 .card h3 {
-    font-size: 27px;
+    font-size: 28px;
 }
 .card p {
     font-size: 20px;
@@ -316,7 +316,7 @@ hr {
 }
 .about .about-content p {
     line-height: 2;
-    font-size: 20px;
+    font-size: 25px;
 }
 .about .about-content .image {
     display: flex;
@@ -396,7 +396,7 @@ hr {
     color: white;
     margin: 7px 0 11px 0;
     font-weight: 200;
-    font-size: 13px;
+    font-size: 20px;
 }
 .footer .infooter a {
     font-weight: 600;
@@ -409,6 +409,7 @@ hr {
     }
     .header .icon ul li {
         font-size: 40px;
+        padding: 5px 0;
     }
     .header .icon ul::after {
         top: -31px;
