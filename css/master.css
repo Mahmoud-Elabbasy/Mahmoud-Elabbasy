@@ -147,7 +147,7 @@ a {
 .home .info p {
     color: white;
     line-height: 2;
-    font-size: 20px;
+    font-size: 25px;
 }
 .home .info .cv {
     background-color: var(--maincolor);
@@ -325,8 +325,8 @@ hr {
     align-items: center;
 }
 .about .about-content img {
-    max-width: 390px;
-    max-height: 390px;
+    max-width: 450px;
+    max-height: 450px;
 }
 .about .about-content .inf {
     color: white;
