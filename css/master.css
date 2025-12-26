@@ -204,8 +204,8 @@ hr {
 }
 .card {
     text-align: center;
-    width: 320px;
-    height: 356px;
+    width: 370px;
+    height: 396px;
     border-radius: 10px;
     padding: 32px;
     background-color: var(--secondcolor);
@@ -218,7 +218,7 @@ hr {
     margin-top: 40px;
     display: grid;
     grid-gap: 50px;
-    grid-template-columns: repeat(auto-fit, 320px);
+    grid-template-columns: repeat(auto-fit, 370px);
     justify-content: center;
     margin-bottom: 100px;
 }
@@ -228,6 +228,12 @@ hr {
     width: 128px;
     height: 128px;
     padding-top: 25px;
+}
+.card h3 {
+    font-size: 27px;
+}
+.card p {
+    font-size: 20px;
 }
 .card h3,
 .card p {
@@ -244,7 +250,7 @@ hr {
     margin-top: 40px;
     display: grid;
     grid-gap: 50px;
-    grid-template-columns: repeat(auto-fit, 320px);
+    grid-template-columns: repeat(auto-fit, 390px);
     justify-content: center;
 
 }
@@ -258,9 +264,17 @@ hr {
 .projects .projects-content .tast a{
     position: absolute;
     left: 12px;
-    top: 6px;
+    top: 12px;
+    font-size: 20px;
 }
-
+.projects-content .card {
+    text-align: center;
+    width: 390px;
+    height: 429px;
+    border-radius: 10px;
+    padding: 32px;
+    background-color: var(--secondcolor);
+}
 .projects .projects-content .project1 .tast:last-of-type a {
     color: white;
 }
@@ -268,16 +282,16 @@ hr {
     background-color: var(--maincolor);
     left: 40px;
     bottom: 14px;
-    width: 100px;
-    height: 32px;
+    width: 120px;
+    height: 48px;
     border-radius: 5px;
 }
 .projects .projects-content .project1 .tast:last-of-type {
     background-color: var(--secondcolor);
     right: 40px;
     bottom: 14px;
-    width: 100px;
-    height: 32px;
+    width: 120px;
+    height: 48px;
     border-radius: 5px;
     border: 1px solid var(--maincolor);
 }
@@ -302,6 +316,7 @@ hr {
 }
 .about .about-content p {
     line-height: 2;
+    font-size: 20px;
 }
 .about .about-content .image {
     display: flex;
@@ -332,11 +347,12 @@ hr {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 10px;
+    font-size: 17px;
 }
 .about .about-content .exp div {
     display: inline-block;
     color: white;
-    margin: 0 20px;
+    margin: 20px 20px;
     text-align: center;
     border-radius: 13px;
     padding: 17px;
@@ -346,7 +362,7 @@ hr {
 .about .about-content .exp div::first-line {
     color: var(--maincolor);
     font-weight: 800;
-    font-size: 20px;
+    font-size: 30px;
 }
 .contact .icons {
     margin-top: 300px;
@@ -380,7 +396,7 @@ hr {
     color: white;
     margin: 7px 0 11px 0;
     font-weight: 200;
-    font-size: 1vw;
+    font-size: 13px;
 }
 .footer .infooter a {
     font-weight: 600;
@@ -390,6 +406,15 @@ hr {
 @media (max-width:1000px) {
     .header .links {
         display: none;
+    }
+    .header .icon ul li {
+        font-size: 40px;
+    }
+    .header .icon ul::after {
+        top: -31px;
+    }
+    .header .icon ul {
+        width: 350px;
     }
     .home {
         flex-direction: column;
@@ -412,8 +437,20 @@ hr {
         font-size: 50px
     }
     .home .info p {
-        font-size: 20px;
+        font-size: 30px;
         margin: 100px 0;
+    }
+    .home .info .cv .incv {
+        right: -39%;
+        font-size: 25px;
+    }
+    .home .myfoto{
+        max-width: 67%
+    }
+    .home .info .cv {
+        height: 100px;
+        width: 220px;
+        border-radius: 20px;
     }
     .about .about-content .image {
         flex-direction: column;
@@ -422,5 +459,8 @@ hr {
     .about .about-content .inf {
         text-align: center;
         width: 56vw;
+    }
+    .about .about-content .exp {
+        font-size: 20px;
     }
 }
